@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
+h2{
+    font-family: 'Raleway', sans-serif;  /* Subtitle font */
+    font-weight: 6000px;                     /* Normal weight for elegance */ 
+    font-family:  sans-serif;
+    color:  #050249;
+    transition: color 0.3s, transform 0.3s;
+}
+h2:hover {
+    color: lab(16.91% -2.23 -18.52 / 0.707);
+    transform: scale(1.05);
+}
+
+footer, p{
+    font-family: 'Raleway', sans-serif;  /* Eye-catching but clean */
+    font-weight: 400;                     /* Normal weight */
+    font-size: 18px;                      /* Slightly larger for attention */
+    color: #000000;                       /* Professional dark tone */
+    line-height: 1.6;                     /* Comfortable spacing */
+    letter-spacing: 0.5px;                /* Adds subtle style */
+    padding: 10px;
+}
+
+
+
+h1{
+    font-family: sans-serif;
+    font-size: 80px;
+}
+
+#navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#navigation:hover {
+    color: #c1d9ea;
+    transform: scale(1.10);
+}
+
+.navbar a{
+    background: #eeeeee;
+    text-decoration: none;
+    color: rgb(3, 53, 103);
+    font-family: 'Roboto'sans-serif;
+    font-weight: 800;
+    transition: 0.3s;border-radius: 12px;
+    box-shadow: 0 0 10px rgb(0,0,0,0.1);
+    padding: 15px;
+    width: 90px;
+}
+
+.navbar a:hover{
+
+    color: #65a8d8;
+    transform: scale(1.05);
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;  /* Subtitle font */
+    font-weight: 400;                     /* Normal weight for elegance */
+    font-size: 25px;                      /* Slightly smaller than main heading */
+    color: #052656;                       /* Subtle gray */
+    letter-spacing: 0.5px;                /* Adds clarity */
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+ul{
+    font-family: 'Raleway', sans-serif;  /* Eye-catching but clean */
+    font-weight: 400;                     /* Normal weight */
+    font-size: 18px;                      /* Slightly larger for attention */
+}
+div{
+    
+    border-radius: 10px;
+    display: block;
+}
+html{
+    scroll-behavior: smooth;
+}
+.contac{
+    color: #0b3ea3;
+}
+.hero{
+    text-align: center;
+    margin: 0px;
+    color: #fff;
+    background-color: #01000a;
+    padding: 200px 20px;
+}
+footer, section{
+    width: 70%;
+    margin: 60px auto;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.hero h3{
+    color: white;
+}
+img{
+
+    display: flex;
+    width: 200px;
+    height: 500px;
+    align-items: flex-start;
+}
+
+/* About Me section image alignment */
+#aboutMe p {
+    display: flex;           /* make text and image side by side */
+    align-items: flex-start; /* align top of image with text */
+    gap: 20px;               /* space between image and text */
+}
+
+#aboutMe p img {
+    width: 200;            /* set image width */
+    height: auto;            /* maintain aspect ratio */
+    border-radius: 10px;     /* optional rounded corners */
+    flex-shrink: 0;          /* prevent image from shrinking */
+}
+footer{
+    font-family: 'Raleway', sans-serif;  /* Subtitle font */
+    text-align: center;  
+    background-color: #01000a;
+    
+}
+footer p{
+    color: white;
+}
