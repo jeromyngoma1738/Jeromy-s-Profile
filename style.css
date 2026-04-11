@@ -90,14 +90,10 @@ html{
 .hero{
     box-sizing: border-box;
     text-align: center;
-    margin: 0px;
-    
-    margin-right: 0%;
-
-    margin-top: 0%;   
     color: #fff;
     background-color: #01000a;
     padding: 200px 20px;
+    min-height: 100vh;
 }
 header{
     width: 100%;
@@ -132,7 +128,7 @@ img{
 }
 
 #aboutMe p img {
-    width: 200;            /* set image width */
+    width-max: 100vh;            /* set image width */
     height: auto;            /* maintain aspect ratio */
     border-radius: 10px;     /* optional rounded corners */
     flex-shrink: 0;          /* prevent image from shrinking */
@@ -145,4 +141,13 @@ footer{
 }
 footer p{
     color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
 }
