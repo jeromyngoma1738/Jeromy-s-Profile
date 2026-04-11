@@ -47,7 +47,8 @@ h1{
     color: rgb(3, 53, 103);
     font-family: 'Roboto'sans-serif;
     font-weight: 800;
-    transition: 0.3s;border-radius: 12px;
+    transition: 0.3s;
+    border-radius: 12px;
     box-shadow: 0 0 10px rgb(0,0,0,0.1);
     padding: 15px;
     width: 90px;
@@ -80,19 +81,30 @@ div{
 }
 html{
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 .contac{
     color: #0b3ea3;
 }
 .hero{
+    box-sizing: border-box;
     text-align: center;
     margin: 0px;
+    
+    margin-right: 0%;
+
+    margin-top: 0%;   
     color: #fff;
     background-color: #01000a;
     padding: 200px 20px;
 }
+header{
+    width: 100%;
+    margin: 0px;
+}
 footer, section{
-    width: 70%;
+    width: 90%;
     margin: 60px auto;
 }
 
@@ -107,8 +119,7 @@ a{
 img{
 
     display: flex;
-    width: 200px;
-    height: 500px;
+    width: 250px;
     align-items: flex-start;
 }
 
@@ -116,6 +127,7 @@ img{
 #aboutMe p {
     display: flex;           /* make text and image side by side */
     align-items: flex-start; /* align top of image with text */
+    font-size: 10 px;
     gap: 20px;               /* space between image and text */
 }
 
