@@ -3,129 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeromy ngoma Personal Profile</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Jeromy Ngoma | Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
-    <header class="hero">
-        <div>
-            <img src="IMG/Untitled-1.png" alt="jeromy is photo profile">
-        <h1 >JEROMY NGOMA</h1>  
-        </div>
-        <h3 >Software Engineer | Computer Scientist | Graphic Designer</h3>
-        <div id="navigation" >
-            <nav class="navbar">
-            <a href="#aboutMe" class="navbar">ABOUT ME</a>
-            <a href="#skils" class="navbar" >SKILLS</a>
-            <a href="#prjects" class="navbar">PROJECTS</a>
-            <a href="#contact" class="navbar">CONTACTS</a>
-            </nav>
-        </div>
-    </header>
-    <main>
 
+<!-- HERO -->
+<header class="top">
+    <img src="IMG/Untitled-1.png" alt="profile picture">
 
-       
-        <!--About me-->
-        <section id="aboutMe">
-            <h2>ABOUT ME</h2>
-            <div>
-            <p> 
-                
-                I turn ideas into impactful technology. I design systems, build websites, and write code in Java, 
-                C++, Python, and web tools to solve real-world problems efficiently and elegantly. Passionate about clean code, 
-                research-driven design, I thrive on challenges that push me to learn, experiment, and deliver meaningful results.  inspire understanding, and make a difference.
-            </p>
-            </div>
- 
-        </section>
+    <h1>JEROMY NGOMA</h1>
+    <p class="titles">Software Engineer | Computer Scientist | Graphic Designer</p>
 
-        <!--skilss-->
-         <section id="skills">
+    <nav class="navbar">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#graphics">Graphics</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+<!-- ABOUT -->
+<section id="about" class="card">
+    <h2>About Me</h2>
+    <p>
+        I turn ideas into impactful technology. I design systems, build websites,
+        and write code in Java, C++, Python, and web tools to solve real-world problems
+        efficiently and elegantly. I thrive on clean code and innovation.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
     <h2>SKILLS</h2>
 
-    <div class="skills-box">
-        <h3>Programming</h3>
-        <ul>
-            <li>C++</li>
-            <li>Java</li>
-            <li>Python</li>
-        </ul>
-    </div>
+    <div class="grid">
 
-    <div class="skills-box">
-        <h3>Web Development</h3>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>PHP</li>
-        </ul>
-    </div>
+        <div class="card small">
+            <span class="material-symbols-outlined">code</span>
+            <h3>Programming</h3>
+            <p>C++ • Java • Python</p>
+        </div>
 
-    <div class="skills-box">
-        <h3>Graphic Design</h3>
-        <p>Posters • Logos • Flyers • Branding</p>
+        <div class="card small">
+            <span class="material-symbols-outlined">language</span>
+            <h3>Web Development</h3>
+            <p>HTML • CSS • JavaScript • PHP</p>
+        </div>
+
+        <div class="card small">
+            <span class="material-symbols-outlined">palette</span>
+            <h3>Graphic Design</h3>
+            <p>Posters • Logos • Branding</p>
+        </div>
+
     </div>
 </section>
 
-        <!--project-->
-        <section id="projects">
-            <h2>PROJECT WORKED ON</h2>
+<!-- PROJECTS -->
+<section id="projects" class="section">
+    <h2>PROJECTS</h2>
 
-            <h3>Biodiversity Monitoring, Data Collection and Ecology Analysis System</h3>
-            <p>A system designed to monitor wildlife biodiversity, collect ecological data,
-                and analyze environmental trends to support research and conservation efforts.</p>
-            
-            <h3>First Come First Serve Simulator</h3>
-            <p>A process scheduling simulation tool that models the First Come First Serve (FCFS) method, helping visualize execution order, waiting times, and 
-                efficiency for educational or operational purposes.
-                </p>
-            <h3>Z-HUB Employee Management System</h3>
-            <p>A comprehensive employee management platform for tracking staff records, tasks, and performance metrics, 
-                streamlining administrative workflows in an organization</p>
-            
-            <h3>Careline Patient Waiting List</h3>
-            <p>A patient management system that organizes and prioritizes waiting lists for clinics, improving patient flow, 
-                record-keeping, and timely healthcare delivery</p>
-        </section >
+    <div class="grid">
 
-        <section id="Graphics">
-            <h2>GRAPHICS</h2>
-            <div class="Graphics">
-                <img src="Graphics/INDEPENDENCE POSTER-1.png" alt="poster for indepence">
-            </div>
-            <div class="Graphics">
-                <img src="Graphics/LOGO 1-1.png" alt="logo desing">
-            </div>
-            <div class="Graphics">
-                <img src="Graphics/SAMPO 2.png" alt="flyer design for a resturant">
-            </div>
-            <div class="Graphics">
-                <img src="Graphics/super kalu finance.png" alt="super kalu flyer for loans">
-            </div>
-        </section>
-        <!--Contact me-->
-        <section id="contact">
-            <h2>CONTACTS</h2>
-            <nav class="contact">
-                <p >Email: <a href="Mailto: jeromyngoma1738@gmail.com" class="contact"> Jeromyngoma1738@mail.com</a></p>
-                <p>Linkdin: <a href="https://www.linkedin.com/in/jeromy-ngoma-564433287?utm_source=share_via&utm_content=profile&utm_medium=member_android"class="contact">Jeromy Ngoma</a></p>
-                <p>GitHub:  <a href="https://github.com/jeromyngoma1738">Jeromyngoma1738</a></p>
-                <p>Contact: +260 961 297 363 / +260 771 037 391</p>
-            </nav>
-            <P> Click <a  href="JEROMY CV.pdf" download>here </a> to download my CV</P>
-        </section>
+        <div class="card">
+            <h3>Biodiversity Monitoring System</h3>
+            <p>Ecological data analysis and wildlife tracking system for conservation research.</p>
+        </div>
 
+        <div class="card">
+            <h3>FCFS Simulator</h3>
+            <p>CPU scheduling simulator that visualizes waiting time and execution order.</p>
+        </div>
 
-    
+        <div class="card">
+            <h3>Z-HUB Employee System</h3>
+            <p>Employee tracking system for managing staff records and performance.</p>
+        </div>
 
-    </main>
-    <footer>
-        <p>© 2026 Jeromy Ngoma. All rights reserved.</p>
-        
-    </footer>
+        <div class="card">
+            <h3>CareLine System</h3>
+            <p>Patient queue management system for clinics and hospitals.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- GRAPHICS -->
+<section id="graphics" class="section">
+    <h2>GRAPHICS</h2>
+
+    <div class="grid">
+
+        <img src="Graphics/INDEPENDENCE POSTER-1.png">
+        <img src="Graphics/LOGO 1-1.png">
+        <img src="Graphics/SAMPO 2.png">
+        <img src="Graphics/super kalu finance.png">
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="card">
+    <h2>CONTACT</h2>
+
+    <p><span class="material-symbols-outlined">call</span> +260 961 297 363</p>
+
+    <p>
+        <span class="material-symbols-outlined">mail</span>
+        <a href="mailto:jeromyngoma1738@gmail.com">jeromyngoma1738@gmail.com</a>
+    </p>
+
+    <p><i class="fa-brands fa-linkedin"></i> LinkedIn</p>
+    <p><i class="fa-brands fa-github"></i> GitHub</p>
+
+    <p>
+        Download CV:
+        <a href="JEROMY CV.pdf" download>⬇ Download</a>
+    </p>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Jeromy Ngoma. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
