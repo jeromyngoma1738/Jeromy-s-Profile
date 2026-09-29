@@ -1,141 +1,719 @@
-<!--JEROMY NGOMA 23137525  ASSIGNMENT = PERSONAL PROFILE -->>
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeromy Ngoma | Portfolio</title>
+    <title>Jeromy Ngoma | Software Engineer Portfolio</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Material Symbols -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+
 </head>
 
 <body>
 
-<!-- HERO -->
-<header class="top">
-    <img src="IMG/Untitled-1.png" alt="profile picture">
+<!-- =========================
+     NAVIGATION
+========================== -->
 
-    <h1>JEROMY NGOMA</h1>
-    <p class="titles">Software Engineer | Computer Scientist | Graphic Designer</p>
+<header class="header">
+<nav class="navbar">
 
-    <nav class="navbar">
+    <a href="#home" class="logo">
+        JN<span>.</span>
+    </a>
+
+    <div class="nav-links">
+        <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#graphics">Graphics</a>
         <a href="#contact">Contact</a>
-    </nav>
+    </div>
+
+    <a href="#contact" class="nav-button">
+        Let's Talk
+    </a>
+
+</nav>
+
+
 </header>
 
 <main>
 
-<!-- ABOUT -->
-<section id="about" class="card">
-    <h2>About Me</h2>
-    <p>
-        I turn ideas into impactful technology. I design systems, build websites,
-        and write code in Java, C++, Python, and web tools to solve real-world problems
-        efficiently and elegantly. I thrive on clean code and innovation.
+<!-- =========================
+     HERO
+========================== -->
+
+<section id="home" class="hero">
+
+<div class="hero-background"></div>
+<div class="hero-content">
+
+    <div class="profile-wrapper">
+        <div class="profile-ring">
+            <img src="IMG/Untitled-1.png"
+                 alt="Jeromy Ngoma profile picture">
+        </div>
+
+        <span class="status-dot"></span>
+
+    </div>
+
+    <p class="hero-intro">
+        HELLO, I'M
     </p>
+
+    <h1> JEROMY <span>NGOMA</span></h1>
+
+    <h2>
+        Software Engineer <span>•</span>
+        Computer Scientist <span>•</span>
+        Graphic Designer <span>•</span>
+        Cybersecurity Enthusiate <span>•</span>
+        Networking Enthusiate
+    </h2>
+
+    <p class="hero-description">
+        I design and build modern digital solutions that combine
+        software engineering, problem solving and creative design.
+    </p>
+
+    <div class="hero-buttons">
+
+        <a href="#projects" class="primary-button">
+            View My Work
+            <span class="material-symbols-outlined">
+                arrow_forward
+            </span>
+        </a>
+
+        <a href="Jeromy's Cv.pdf" class="secondary-button"
+           download>
+            <span class="material-symbols-outlined"> download</span>
+            Download CV
+        </a>
+
+    </div>
+
+    <div class="social-links">
+
+        <a href="#" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="#" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+
+        <a href="mailto:jeromyngoma1738@gmail.com"
+           aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+
+    </div>
+
+</div>
+
+<a href="#about" class="scroll-down">
+    <span>Scroll to explore</span>
+    <span class="material-symbols-outlined">
+        keyboard_arrow_down
+    </span>
+</a>
+
+
 </section>
 
-<!-- SKILLS -->
-<section id="skills" class="section">
-    <h2>SKILLS</h2>
+<!-- =========================
+     ABOUT
+========================== -->
 
-    <div class="grid">
+<section id="about" class="section">
 
-        <div class="card small">
+<div class="section-heading">
+
+    <span class="section-label">
+        01 — ABOUT ME
+    </span>
+
+    <h2>
+        Turning ideas into
+        <span>technology.</span>
+    </h2>
+
+</div>
+
+<div class="about-container">
+
+    <div class="about-text">
+
+        <p class="large-text">
+            I am a Computer Science student passionate about
+            software engineering, system development and
+            creative technology.
+        </p>
+
+        <p>
+            I enjoy transforming real-world problems into
+            practical digital solutions. My experience includes
+            developing software systems, websites, databases
+            and visual designs.
+        </p>
+
+        <p>
+            I continuously explore new technologies while
+            focusing on clean code, usability, problem solving
+            and meaningful user experiences.
+        </p>
+
+        <div class="about-stats">
+
+            <div class="stat">
+                <strong>04+</strong>
+                <span>Major Projects</span>
+            </div>
+
+            <div class="stat">
+                <strong>03+</strong>
+                <span>Programming Languages</span>
+            </div>
+
+            <div class="stat">
+                <strong>01</strong>
+                <span>Creative Mind</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="about-card">
+
+        <div class="about-card-icon">
+            <span class="material-symbols-outlined">
+                terminal
+            </span>
+        </div>
+
+        <h3>
+            Building with purpose
+        </h3>
+
+        <p>
+            Software engineering isn't only about writing code.
+            It's about understanding a problem, designing a
+            solution and creating something people can use.
+        </p>
+
+        <div class="tech-tags">
+            <span>Python</span>
+            <span>Java</span>
+            <span>C++</span>
+            <span>Web</span>
+            <span>Databases</span>
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- =========================
+     SKILLS
+========================== -->
+
+<section id="skills" class="section dark-section">
+<div class="section-heading center">
+    <span class="section-label">02 — EXPERTISE </span>
+
+    <h2>
+        Skills & <span>Technologies</span>
+    </h2>
+
+    <p>
+        Technologies and creative skills I use to turn ideas
+        into working solutions.
+    </p>
+
+</div>
+
+<div class="skills-grid">
+
+    <div class="skill-card">
+
+        <div class="skill-icon">
             <span class="material-symbols-outlined">code</span>
-            <h3>Programming</h3>
-            <p>C++ • Java • Python</p>
         </div>
 
-        <div class="card small">
-            <span class="material-symbols-outlined">language</span>
-            <h3>Web Development</h3>
-            <p>HTML • CSS • JavaScript • PHP</p>
-        </div>
+        <h3>Programming </h3>
 
-        <div class="card small">
-            <span class="material-symbols-outlined">palette</span>
-            <h3>Graphic Design</h3>
-            <p>Posters • Logos • Branding</p>
+        <p>
+            Developing efficient applications and solving
+            computational problems.
+        </p>
+
+        <div class="skill-tags">
+            <span>C++</span>
+            <span>Java</span>
+            <span>Python</span>
+            <span>JavaScript</span>
+
         </div>
 
     </div>
+
+
+    <div class="skill-card">
+
+        <div class="skill-icon">
+            <span class="material-symbols-outlined">
+                language
+            </span>
+        </div>
+
+        <h3>
+            Web Development
+        </h3>
+
+        <p>
+            Creating responsive websites and interactive
+            web applications.
+        </p>
+
+        <div class="skill-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>PHP</span>
+        </div>
+
+    </div>
+
+
+    <div class="skill-card">
+
+        <div class="skill-icon">
+            <span class="material-symbols-outlined">
+                database
+            </span>
+        </div>
+
+        <h3>
+            Systems & Databases
+        </h3>
+
+        <p>
+            Designing systems, databases and applications
+            that organize and process information.
+        </p>
+
+        <div class="skill-tags">
+            <span>SQL</span>
+            <span>Flask</span>
+            <span>SQLite</span>
+        </div>
+
+    </div>
+
+
+    <div class="skill-card">
+
+        <div class="skill-icon">
+            <span class="material-symbols-outlined">
+                palette
+            </span>
+        </div>
+
+        <h3>
+            Graphic Design
+        </h3>
+
+        <p>
+            Creating visual identities, posters, logos and
+            digital branding materials.
+        </p>
+
+        <div class="skill-tags">
+            <span>Branding</span>
+            <span>Posters</span>
+            <span>Logos</span>
+        </div>
+
+    </div>
+
+</div>
+
+
 </section>
 
-<!-- PROJECTS -->
+<!-- =========================
+     PROJECTS
+========================== -->
+
 <section id="projects" class="section">
-    <h2>PROJECTS</h2>
+<div class="section-heading">
 
-    <div class="grid">
+    <span class="section-label">
+        03 — PROJECTS
+    </span>
 
-        <div class="card">
-            <h3>Biodiversity Monitoring System</h3>
-            <p>Ecological data analysis and wildlife tracking system for conservation research.</p>
+    <h2>Things I've <span>built.</span></h2>
+
+</div>
+
+
+<div class="projects-grid">
+
+    <article class="project-card featured">
+
+        <div class="project-number">
+            01
         </div>
 
-        <div class="card">
-            <h3>FCFS Simulator</h3>
-            <p>CPU scheduling simulator that visualizes waiting time and execution order.</p>
+        <div class="project-icon">
+            <span class="material-symbols-outlined">
+                nature
+            </span>
         </div>
 
-        <div class="card">
-            <h3>Z-HUB Employee System</h3>
-            <p>Employee tracking system for managing staff records and performance.</p>
+        <span class="project-category">
+            SOFTWARE • ENVIRONMENT
+        </span>
+
+        <h3>
+            Biodiversity Monitoring System
+        </h3>
+
+        <p>
+            A biodiversity monitoring and ecological analysis
+            platform designed for collecting wildlife and
+            environmental data and supporting conservation
+            research.
+        </p>
+
+        <div class="project-tech">
+            <span>Python</span>
+            <span>Flask</span>
+            <span>SQLite</span>
+            <span>AI Analysis</span>
         </div>
 
-        <div class="card">
-            <h3>CareLine System</h3>
-            <p>Patient queue management system for clinics and hospitals.</p>
+    </article>
+
+
+    <article class="project-card">
+
+        <div class="project-number">
+            02
+        </div>
+
+        <div class="project-icon">
+            <span class="material-symbols-outlined">
+                memory
+            </span>
+        </div>
+
+        <span class="project-category">
+            COMPUTER SCIENCE
+        </span>
+
+        <h3>
+            FCFS Simulator
+        </h3>
+
+        <p>
+            A CPU scheduling simulator that demonstrates
+            First-Come, First-Served scheduling and visualizes
+            execution order and waiting time.
+        </p>
+
+        <div class="project-tech">
+            <span>C++</span>
+            <span>Algorithms</span>
+            <span>OS</span>
+        </div>
+
+    </article>
+
+
+    <article class="project-card">
+
+        <div class="project-number"> 03 </div>
+
+        <div class="project-icon">
+            <span class="material-symbols-outlined">groups</span>
+        </div>
+
+        <span class="project-category">MANAGEMENT SYSTEM </span>
+
+        <h3> Z-HUB Employee System</h3>
+
+        <p>
+            An employee management platform designed to
+            organize staff records, employee information and
+            performance data.
+        </p>
+
+        <div class="project-tech">
+            <span>PHP</span>
+            <span>MySQL</span>
+            <span>HTML</span>
+            <span>CSS</span>
+        </div>
+
+    </article>
+
+
+    <article class="project-card">
+
+        <div class="project-number">
+            04
+        </div>
+
+        <div class="project-icon">
+            <span class="material-symbols-outlined">
+                medical_services
+            </span>
+        </div>
+
+        <span class="project-category">
+            HEALTHCARE SYSTEM
+        </span>
+
+        <h3>
+            CareLine System
+        </h3>
+
+        <p>
+            A patient queue management system designed to
+            improve organization and streamline patient
+            processing in healthcare environments.
+        </p>
+
+        <div class="project-tech">
+            <span>Java</span>
+            <span>Algorithms</span>
+            <span>Queues</span>
+        </div>
+
+    </article>
+
+</div>
+
+
+</section>
+
+<!-- =========================
+     GRAPHICS
+========================== -->
+
+<section id="graphics" class="section gallery-section">
+
+<div class="section-heading center">
+
+    <span class="section-label">
+        04 — CREATIVE WORK
+    </span>
+
+    <h2>
+        Graphic <span>Design</span>
+    </h2>
+
+    <p>
+        A selection of visual designs, branding concepts
+        and creative work.
+    </p>
+
+</div>
+
+
+<div class="graphics-grid">
+
+    <div class="graphic-item">
+        <img src="Graphics/INDEPENDENCE POSTER-1.png"
+             alt="Independence poster design">
+
+        <div class="graphic-overlay">
+            <span>Poster Design</span>
+        </div>
+    </div>
+
+
+    <div class="graphic-item">
+        <img src="Graphics/LOGO 1-1.png"
+             alt="Logo design">
+
+        <div class="graphic-overlay">
+            <span>Logo Design</span>
+        </div>
+    </div>
+
+
+    <div class="graphic-item">
+        <img src="Graphics/SAMPO 2.png" alt="Sampo graphic design">
+
+        <div class="graphic-overlay">
+            <span>Brand Design</span>
+        </div>
+    </div>
+
+
+    <div class="graphic-item">
+        <img src="Graphics/super kalu finance.png"
+             alt="Super Kalu Finance design">
+
+        <div class="graphic-overlay">
+            <span>Business Design</span>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<!-- =========================
+     CONTACT
+========================== -->
+
+<section id="contact" class="contact-section">
+<div class="contact-container">
+
+    <div class="contact-content">
+
+        <span class="section-label">
+            05 — CONTACT
+        </span>
+
+        <h2>
+            Let's build something
+            <span>great.</span>
+        </h2>
+
+        <p>
+            Have a project, opportunity or idea you'd like
+            to discuss? I'd be happy to connect.
+        </p>
+
+        <div class="contact-details">
+
+            <a href="tel:+260961297363">
+
+                <span class="contact-icon">
+                    <span class="material-symbols-outlined">
+                        call
+                    </span>
+                </span>
+
+                <div>
+                    <small>Phone</small>
+                    <strong>+260 961 297 363</strong>
+                </div>
+
+            </a>
+
+
+            <a href="mailto:jeromyngoma1738@gmail.com">
+
+                <span class="contact-icon">
+                    <span class="material-symbols-outlined">
+                        mail
+                    </span>
+                </span>
+
+                <div>
+                    <small>Email</small>
+                    <strong>
+                        jeromyngoma1738@gmail.com
+                    </strong>
+                </div>
+
+            </a>
+
         </div>
 
     </div>
-</section>
 
-<!-- GRAPHICS -->
-<section id="graphics" class="section">
-    <h2>GRAPHICS</h2>
 
-    <div class="grid">
+    <div class="contact-card">
 
-        <img src="Graphics/INDEPENDENCE POSTER-1.png">
-        <img src="Graphics/LOGO 1-1.png">
-        <img src="Graphics/SAMPO 2.png">
-        <img src="Graphics/super kalu finance.png">
+        <div class="contact-card-icon">
+            <span class="material-symbols-outlined">
+                connect_without_contact
+            </span>
+        </div>
+
+        <h3>
+            Connect with me
+        </h3>
+
+        <p>
+            Follow my work and connect with me online.
+        </p>
+
+        <div class="contact-socials">
+
+            <a href="https://github.com/jeromyngoma1738" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+            </a>
+
+            <a href="www.linkedin.com/in/jeromy-ngoma-564433287" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+
+            <a href="mailto:jeromyngoma1738@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email Me</span>
+            </a>
+
+        </div>
+
+        <a href="Jeromy's Cv.pdf" download class="cv-button">
+            <span class="material-symbols-outlined">download </span> Download My CV
+        </a>
 
     </div>
-</section>
 
-<!-- CONTACT -->
-<section id="contact" class="card">
-    <h2>CONTACT</h2>
+</div>
 
-    <p><span class="material-symbols-outlined">call</span> +260 961 297 363</p>
-
-    <p>
-        <span class="material-symbols-outlined">mail</span>
-        <a href="mailto:jeromyngoma1738@gmail.com">jeromyngoma1738@gmail.com</a>
-    </p>
-
-    <p><i class="fa-brands fa-linkedin"></i> LinkedIn</p>
-    <p><i class="fa-brands fa-github"></i> GitHub</p>
-
-    <p>
-        Download CV:
-        <a href="JEROMY CV.pdf" download>⬇ Download</a>
-    </p>
 </section>
 
 </main>
 
+<!-- FOOTER -->
+
 <footer>
-    <p>© 2026 Jeromy Ngoma. All rights reserved.</p>
+<div class="footer-logo">JN<span>.</span></div>
+
+<p>
+    Designed & built by Jeromy Ngoma
+</p>
+
+<p class="copyright">
+    © 2026 Jeromy Ngoma. All rights reserved.
+</p>
+
+
 </footer>
 
 </body>
